@@ -1,0 +1,4 @@
+python3.11
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I love this new technology.")
+'{"emotionPredictions":[{"emotion":{"anger":0.0051648013,"disgust":0.0031853616,"fear":0.006935216,"joy":0.9678887,"sadness":0.04018698},"target":"","emotionMentions":[{"span":{"begin":0,"end":28,"text":"I love this new technology."},"emotion":{"anger":0.0051648013,"disgust":0.0031853616,"fear":0.006935216,"joy":0.9678887,"sadness":0.04018698}}]}],"producerId":{"name":"Aggregated Emotion Workflow","version":"0.0.1"}}'
